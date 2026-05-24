@@ -33,4 +33,12 @@ results = collection.query(
 )
 
 print("\nQuery Results:")
-print(results)
+
+for doc in results['documents'][0]:
+    print(doc)
+
+# Optional: Print distance scores
+print("\nSimilarity Scores:\n")
+
+for doc, distance in zip(results['documents'][0], results['distances'][0]):
+    print(f"{doc} | Distance: {distance}")
