@@ -2,32 +2,6 @@
 
 Simple Vector Database demo using ChromaDB and Python.
 
-This project demonstrates:
-
-- Vector Databases
-- Semantic Search
-- Similarity Search
-- Embeddings
-- ChromaDB Basics
-
----
-
-# What is a Vector Database?
-
-Traditional databases search based on exact keywords.
-
-Vector Databases search based on meaning and similarity.
-
-Example:
-
-Query:
-Looking for nearby pizza shop
-
-Stored Document:
-Pizza available nearby
-
-Even though the words are different, Vector Databases understand the semantic meaning.
-
 ---
 
 # Install Dependencies
