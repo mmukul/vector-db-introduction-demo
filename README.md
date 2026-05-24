@@ -1,38 +1,52 @@
-# ChromaDB Vector Database Demo
 
-Simple Vector Database demo using ChromaDB and Python.
+# Vector Database Introduction Demo
 
----
+Beginner-friendly Vector Database demo using Python, ChromaDB, and Sentence Transformers.
 
-# Install Dependencies
+## Features
+- Vector Embeddings
+- Similarity Search
+- Semantic Search
+- ChromaDB Integration
 
-Install ChromaDB:
+## Installation
 
+### Clone Repository
 ```bash
-pip install chromadb
+git clone https://github.com/mmukul/vector-db-introduction-demo.git
 ```
 
-If you face SQLite compatibility issues on Linux:
-
+### Move into Directory
 ```bash
-pip install pysqlite3-binary
+cd vector-db-introduction-demo
 ```
 
----
-
-# Project Structure
-
+### Create Virtual Environment
+#### Linux / Mac
 ```bash
-demo-app.py
-README.md
+python3 -m venv venv
+source venv/bin/activate
 ```
 
----
-
-# Run the Demo
-
+#### Windows
 ```bash
-python demo-app.py
+python -m venv venv
+venv\Scripts\activate
+```
+
+### Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+Or manually:
+```bash
+pip install chromadb sentence-transformers
+```
+
+## Run Demo
+```bash
+python app.py
 ```
 
 ---
