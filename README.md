@@ -44,22 +44,12 @@ ChromaDB returns the most relevant matching documents based on semantic similari
 Example:
 
 ```bash
-Pizza available nearby
+DevSecOps improves software security
+Chroma is a vector database for AI applications
+AI pipelines require security scanning
+LangChain helps build LLM applications
+Ollama can run LLMs locally
 ```
-
----
-
-# Persistent Storage Example
-
-To save vectors permanently:
-
-```python
-import chromadb
-
-client = chromadb.PersistentClient(path="./my_vectordb")
-```
-
-This stores the vector database locally on disk.
 
 ---
 
