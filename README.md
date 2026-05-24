@@ -10,7 +10,7 @@ Simple demo project for:
 ## Step 1 — Clone Repository
 
 ```bash
-git clone https://github.com/your-username/vector-db-introduction-demo.git
+git clone https://github.com/mmukul/vector-db-introduction-demo.git
 ```
 
 ## Step 2 — Move into Project Directory
