@@ -5,30 +5,61 @@ Simple demo project for:
 - Query Documents
 - Semantic Search
 
-## Install
+# Installation Steps
+
+## Step 1 — Clone Repository
+
+```bash
+git clone https://github.com/your-username/vector-db-introduction-demo.git
+```
+
+## Step 2 — Move into Project Directory
+
+```bash
+cd vector-db-introduction-demo
+```
+
+## Step 3 — Create Virtual Environment (Recommended)
+
+### Linux / Mac
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### Windows
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+## Step 4 — Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Run
+Or manually:
 
 ```bash
-python3 app.py
+pip install chromadb sentence-transformers
 ```
 
-## Features
+## Step 5 — Run the Demo
 
-- SQLite fix for Chroma
-- Persistent Chroma database
-- Add documents
-- Semantic query search
+```bash
+python app.py
+```
 
-## Example Query
+## Expected Output
 
-```python
-results = collection.query(
-    query_texts=["What is vector database?"],
-    n_results=2
-)
+The system performs semantic similarity search and returns the most relevant documents.
+
+Example:
+
+```text
+Pizza is an Italian food
+Pasta is made using sauce
 ```
