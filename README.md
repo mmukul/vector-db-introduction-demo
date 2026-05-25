@@ -60,9 +60,6 @@ Example:
 ```bash
 DevSecOps improves software security
 Chroma is a vector database for AI applications
-AI pipelines require security scanning
-LangChain helps build LLM applications
-Ollama can run LLMs locally
 ```
 
 ---
